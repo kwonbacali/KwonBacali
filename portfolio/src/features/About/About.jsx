@@ -5,7 +5,6 @@ import profileImg from '../../assets/profile.jpg';
 import resumeFile from '../../assets/kwon-bacali.pdf';
 
 const About = ({ data }) => {
-  console.log("About Data:", data); 
 
   return (
     // Replaced bgLight with a dark theme background container

@@ -3,8 +3,6 @@ import Section from '../../components/Section';
 import { Link } from 'react-router-dom';
 
 const Interests = ({ data }) => {
-  // Debug log retained as requested
-  console.log("Interests Data:", data); 
 
   return (
     <Section id="interests" className="scroll-mt-24">

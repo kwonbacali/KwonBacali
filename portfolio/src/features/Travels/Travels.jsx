@@ -9,9 +9,9 @@ const TRAVEL_DATA = [
     route: 'Aurora Ride',
     date: '2025',
     images: [
-      '/images/travels/aurora-1.jpg',
-      '/images/travels/aurora-2.jpg',
-      '/images/travels/aurora-3.jpg'
+      'images/travels/aurora-1.jpg',
+      'images/travels/aurora-2.jpg',
+      'images/travels/aurora-3.jpg'
     ]
   },
   {
@@ -20,12 +20,12 @@ const TRAVEL_DATA = [
     route: 'Unwind to an Island Paradise',
     date: '2026',
     images: [
-      '/images/travels/boracay-1.jpg',
-      '/images/travels/boracay-2.jpg',
-      '/images/travels/boracay-3.jpg',
-      '/images/travels/boracay-4.jpg',
-      '/images/travels/boracay-5.jpg',
-      '/images/travels/boracay-6.jpg',
+      'images/travels/boracay-1.jpg',
+      'images/travels/boracay-2.jpg',
+      'images/travels/boracay-3.jpg',
+      'images/travels/boracay-4.jpg',
+      'images/travels/boracay-5.jpg',
+      'images/travels/boracay-6.jpg',
     ]
   },
   {
@@ -34,9 +34,9 @@ const TRAVEL_DATA = [
     route: 'Island Hopping & Coastal Ride',
     date: '2025',
     images: [
-      '/images/travels/cagbalete-1.jpg',
-      '/images/travels/cagbalete-2.jpg',
-      '/images/travels/cagbalete-3.jpg'
+      'images/travels/cagbalete-1.jpg',
+      'images/travels/cagbalete-2.jpg',
+      'images/travels/cagbalete-3.jpg'
     ]
   },
   {
@@ -45,9 +45,9 @@ const TRAVEL_DATA = [
     route: 'Long Ride to the Surfing Capital',
     date: '2026',
     images: [
-      '/images/travels/la-union-1.jpg',
-      '/images/travels/la-union-2.jpg',
-      '/images/travels/la-union-3.jpg'
+      'images/travels/la-union-1.jpg',
+      'images/travels/la-union-2.jpg',
+      'images/travels/la-union-3.jpg'
     ]
   },
   {
@@ -56,12 +56,12 @@ const TRAVEL_DATA = [
     route: 'Marinduque Loop Ride & Island Hopping',
     date: '2026',
     images: [
-      '/images/travels/marinduque-loop-1.jpg',
-      '/images/travels/marinduque-loop-2.jpg',
-      '/images/travels/marinduque-loop-3.jpg',
-      '/images/travels/marinduque-loop-4.jpg',
-      '/images/travels/marinduque-loop-5.jpg',
-      '/images/travels/marinduque-loop-6.jpg',
+      'images/travels/marinduque-loop-1.jpg',
+      'images/travels/marinduque-loop-2.jpg',
+      'images/travels/marinduque-loop-3.jpg',
+      'images/travels/marinduque-loop-4.jpg',
+      'images/travels/marinduque-loop-5.jpg',
+      'images/travels/marinduque-loop-6.jpg',
     ]
   },
   {
@@ -70,13 +70,13 @@ const TRAVEL_DATA = [
     route: 'Palawan Coastal Ride & Island Hopping',
     date: '2025',
     images: [
-      '/images/travels/palawan-1.jpg',
-      '/images/travels/palawan-2.jpg',
-      '/images/travels/palawan-3.jpg',
-      '/images/travels/palawan-4.jpg',
-      '/images/travels/palawan-5.jpg',
-      '/images/travels/palawan-6.JPG',
-      '/images/travels/palawan-7.jpg',
+      'images/travels/palawan-1.jpg',
+      'images/travels/palawan-2.jpg',
+      'images/travels/palawan-3.jpg',
+      'images/travels/palawan-4.jpg',
+      'images/travels/palawan-5.jpg',
+      'images/travels/palawan-6.JPG',
+      'images/travels/palawan-7.jpg',
     ]
   }
 ];

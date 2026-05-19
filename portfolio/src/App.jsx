@@ -102,7 +102,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/KwonBacali">
       {/* 
         AnimatePresence handles tracking components leaving the DOM. 
         We use mode="wait" to ensure exit transitions finish smoothly.

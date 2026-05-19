@@ -93,7 +93,7 @@ const Interests = ({ data }) => {
                   {/* Dynamic Branding Logo (Scales up on hover) */}
                   <div className="w-20 h-20 bg-slate-100 overflow-hidden flex items-center justify-center group-hover/game:scale-110 transition-transform duration-300 select-none">
                     <img 
-                      src="/images/logos/genshin-impact.png"
+                      src="images/logos/genshin-impact.png"
                       alt="Genshin Impact Logo" 
                       className="w-full h-full object-cover"
                       loading="lazy"
@@ -111,7 +111,7 @@ const Interests = ({ data }) => {
                   {/* Dynamic Branding Logo (Scales up on hover) */}
                   <div className="w-20 h-20 bg-slate-100 overflow-hidden flex items-center justify-center group-hover/game:scale-110 transition-transform duration-300 select-none">
                     <img 
-                      src="/images/logos/mobile-legends.png" 
+                      src="images/logos/mobile-legends.png" 
                       alt="Mobile Legends Logo" 
                       className="w-full h-full object-cover"
                       loading="lazy"
@@ -129,7 +129,7 @@ const Interests = ({ data }) => {
                   {/* Dynamic Branding Logo (Scales up on hover) */}
                   <div className="w-20 h-20 bg-slate-100 overflow-hidden flex items-center justify-center group-hover/game:scale-110 transition-transform duration-300 select-none">
                     <img 
-                      src="/images/logos/valorant.png" 
+                      src="images/logos/valorant.png" 
                       alt="Valorant Logo" 
                       className="w-full h-full object-cover"
                       loading="lazy"

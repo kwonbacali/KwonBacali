@@ -1,0 +1,57 @@
+/* features/About/about.module.css */
+
+.aboutContainer {
+  /* Example customization: A very subtle background glow effect */
+  position: relative;
+}
+
+/* You can easily customize headings or paragraphs globally just for this section */
+.aboutContainer h1 {
+  /* Custom text selection color or unique font tracking */
+  letter-spacing: -0.03em;
+}
+
+/* Example: Customizing a unique style element for just the summary text */
+.aboutContainer p:last-child {
+  text-wrap: pretty; /* Prevents awkward single-word line breaks */
+}
+/* features/About/about.module.css */
+
+/* Neon ring glow container for the portrait circle */
+.glowCircle {
+  background: linear-gradient(135deg, #06b6d4, #10b981);
+  box-shadow: 
+    0 0 20px rgba(6, 182, 212, 0.2),
+    0 0 40px rgba(16, 185, 129, 0.15),
+    inset 0 0 15px rgba(255, 255, 255, 0.2);
+  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.glowCircle:hover {
+  transform: scale(1.02);
+  box-shadow: 
+    0 0 30px rgba(6, 182, 212, 0.35),
+    0 0 60px rgba(16, 185, 129, 0.25);
+}
+@keyframes floatY {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px); /* Adjust this value for higher/lower movement */
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Class for the first floating icon */
+.floatingIconOne {
+  animation: floatY 4s ease-in-out infinite;
+}
+
+/* Class for the second floating icon with a delay so they alternate */
+.floatingIconTwo {
+  animation: floatY 4s ease-in-out infinite;
+  animation-delay: 1.5s;
+}

@@ -162,7 +162,7 @@ const Contact = () => {
               </div>
               <div>
                 <h4 className="text-xs font-bold text-slate-800 uppercase tracking-wide">Location</h4>
-                <p className="text-slate-500 text-sm font-light">Cavite, Philippines</p>
+                <p className="text-slate-500 text-sm font-light">Antipolo, Rizal, Philippines</p>
               </div>
             </div>
 
